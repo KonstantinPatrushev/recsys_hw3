@@ -1,4 +1,5 @@
 {
+ "split": "test",
  "k": 20,
  "top": 5,
  "rows": [
@@ -6,13 +7,13 @@
    "variant": "user-based raw, min 1 ratings",
    "precision_at_5": 0.0002,
    "share_under_5_ratings": 0.9989,
-   "catalog_coverage": 27
+   "catalog_coverage": 31
   },
   {
    "variant": "item-based raw, min 1 ratings",
-   "precision_at_5": 0.0223,
-   "share_under_5_ratings": 0.7519,
-   "catalog_coverage": 815
+   "precision_at_5": 0.0218,
+   "share_under_5_ratings": 0.754,
+   "catalog_coverage": 822
   },
   {
    "variant": "user-based centred, min 1 ratings",
@@ -28,15 +29,15 @@
   },
   {
    "variant": "user-based raw, min 5 ratings",
-   "precision_at_5": 0.0657,
+   "precision_at_5": 0.066,
    "share_under_5_ratings": 0,
    "catalog_coverage": 130
   },
   {
    "variant": "item-based raw, min 5 ratings",
-   "precision_at_5": 0.0464,
+   "precision_at_5": 0.046,
    "share_under_5_ratings": 0,
-   "catalog_coverage": 1002
+   "catalog_coverage": 1005
   },
   {
    "variant": "user-based centred, min 5 ratings",
@@ -48,19 +49,43 @@
    "variant": "item-based centred, min 5 ratings",
    "precision_at_5": 0.0534,
    "share_under_5_ratings": 0,
-   "catalog_coverage": 156
+   "catalog_coverage": 157
+  },
+  {
+   "variant": "user-based raw, min 10 ratings",
+   "precision_at_5": 0.066,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 124
+  },
+  {
+   "variant": "item-based raw, min 10 ratings",
+   "precision_at_5": 0.059,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 951
+  },
+  {
+   "variant": "user-based centred, min 10 ratings",
+   "precision_at_5": 0.0386,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 133
+  },
+  {
+   "variant": "item-based centred, min 10 ratings",
+   "precision_at_5": 0.0596,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 146
   },
   {
    "variant": "user-based raw, min 20 ratings",
-   "precision_at_5": 0.0657,
+   "precision_at_5": 0.066,
    "share_under_5_ratings": 0,
    "catalog_coverage": 123
   },
   {
    "variant": "item-based raw, min 20 ratings",
-   "precision_at_5": 0.074,
+   "precision_at_5": 0.0736,
    "share_under_5_ratings": 0,
-   "catalog_coverage": 828
+   "catalog_coverage": 829
   },
   {
    "variant": "user-based centred, min 20 ratings",
@@ -72,7 +97,31 @@
    "variant": "item-based centred, min 20 ratings",
    "precision_at_5": 0.0628,
    "share_under_5_ratings": 0,
-   "catalog_coverage": 130
+   "catalog_coverage": 131
+  },
+  {
+   "variant": "user-based raw, min 50 ratings",
+   "precision_at_5": 0.0725,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 120
+  },
+  {
+   "variant": "item-based raw, min 50 ratings",
+   "precision_at_5": 0.0899,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 519
+  },
+  {
+   "variant": "user-based centred, min 50 ratings",
+   "precision_at_5": 0.0534,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 134
+  },
+  {
+   "variant": "item-based centred, min 50 ratings",
+   "precision_at_5": 0.0679,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 113
   },
   {
    "variant": "most popular (not CF)",

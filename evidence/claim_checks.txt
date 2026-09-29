@@ -1,0 +1,4 @@
+impute: mean term 21607, |deviation term| 3.1 over 5866 pairs
+impute user cosine: min 0.8920 mean 0.9954 max 1.0000
+item-based corated: mean train ratings of neighbours used = 105.0
+item-based weighted: mean train ratings of neighbours used = 233.7
