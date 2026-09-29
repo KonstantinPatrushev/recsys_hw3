@@ -1,0 +1,6 @@
+user-based raw, min 1 ratings            P@5 0.0002  <5 ratings  99.9%  coverage 31
+item-based raw, min 1 ratings            P@5 0.0218  <5 ratings  75.4%  coverage 822
+user-based centred, min 1 ratings        P@5 0.0000  <5 ratings  99.8%  coverage 20
+item-based centred, min 1 ratings        P@5 0.0015  <5 ratings  98.1%  coverage 72
+user-based raw, min 5 ratings            P@5 0.0660  <5 ratings   0.0%  coverage 130
+item-based raw, min 5 ratings            P@5 0.0460  <5 ratings   0.0%  coverage 1005

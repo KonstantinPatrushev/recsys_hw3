@@ -1,0 +1,22 @@
+user-based raw, min 1 ratings            P@5 0.0000  <5 ratings  99.8%  coverage 39
+item-based raw, min 1 ratings            P@5 0.0034  <5 ratings  83.3%  coverage 685
+user-based centred, min 1 ratings        P@5 0.0002  <5 ratings  99.9%  coverage 18
+item-based centred, min 1 ratings        P@5 0.0000  <5 ratings  98.6%  coverage 70
+user-based raw, min 5 ratings            P@5 0.0240  <5 ratings   0.0%  coverage 137
+item-based raw, min 5 ratings            P@5 0.0119  <5 ratings   0.0%  coverage 967
+user-based centred, min 5 ratings        P@5 0.0087  <5 ratings   0.0%  coverage 124
+item-based centred, min 5 ratings        P@5 0.0172  <5 ratings   0.0%  coverage 148
+user-based raw, min 10 ratings           P@5 0.0240  <5 ratings   0.0%  coverage 127
+item-based raw, min 10 ratings           P@5 0.0178  <5 ratings   0.0%  coverage 920
+user-based centred, min 10 ratings       P@5 0.0146  <5 ratings   0.0%  coverage 129
+item-based centred, min 10 ratings       P@5 0.0195  <5 ratings   0.0%  coverage 134
+user-based raw, min 20 ratings           P@5 0.0240  <5 ratings   0.0%  coverage 125
+item-based raw, min 20 ratings           P@5 0.0233  <5 ratings   0.0%  coverage 807
+user-based centred, min 20 ratings       P@5 0.0159  <5 ratings   0.0%  coverage 129
+item-based centred, min 20 ratings       P@5 0.0214  <5 ratings   0.0%  coverage 129
+user-based raw, min 50 ratings           P@5 0.0305  <5 ratings   0.0%  coverage 121
+item-based raw, min 50 ratings           P@5 0.0308  <5 ratings   0.0%  coverage 473
+user-based centred, min 50 ratings       P@5 0.0210  <5 ratings   0.0%  coverage 123
+item-based centred, min 50 ratings       P@5 0.0263  <5 ratings   0.0%  coverage 108
+most popular (not CF)                    P@5 0.0475  <5 ratings   0.0%  coverage 27
+exit 0

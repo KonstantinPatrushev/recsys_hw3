@@ -1,0 +1,84 @@
+{
+ "k": 20,
+ "top": 5,
+ "rows": [
+  {
+   "variant": "user-based raw, min 1 ratings",
+   "precision_at_5": 0.0002,
+   "share_under_5_ratings": 0.9989,
+   "catalog_coverage": 27
+  },
+  {
+   "variant": "item-based raw, min 1 ratings",
+   "precision_at_5": 0.0223,
+   "share_under_5_ratings": 0.7519,
+   "catalog_coverage": 815
+  },
+  {
+   "variant": "user-based centred, min 1 ratings",
+   "precision_at_5": 0,
+   "share_under_5_ratings": 0.9981,
+   "catalog_coverage": 20
+  },
+  {
+   "variant": "item-based centred, min 1 ratings",
+   "precision_at_5": 0.0015,
+   "share_under_5_ratings": 0.9809,
+   "catalog_coverage": 72
+  },
+  {
+   "variant": "user-based raw, min 5 ratings",
+   "precision_at_5": 0.0657,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 130
+  },
+  {
+   "variant": "item-based raw, min 5 ratings",
+   "precision_at_5": 0.0464,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 1002
+  },
+  {
+   "variant": "user-based centred, min 5 ratings",
+   "precision_at_5": 0.0235,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 110
+  },
+  {
+   "variant": "item-based centred, min 5 ratings",
+   "precision_at_5": 0.0534,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 156
+  },
+  {
+   "variant": "user-based raw, min 20 ratings",
+   "precision_at_5": 0.0657,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 123
+  },
+  {
+   "variant": "item-based raw, min 20 ratings",
+   "precision_at_5": 0.074,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 828
+  },
+  {
+   "variant": "user-based centred, min 20 ratings",
+   "precision_at_5": 0.0448,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 137
+  },
+  {
+   "variant": "item-based centred, min 20 ratings",
+   "precision_at_5": 0.0628,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 130
+  },
+  {
+   "variant": "most popular (not CF)",
+   "precision_at_5": 0.1417,
+   "share_under_5_ratings": 0,
+   "catalog_coverage": 33
+  }
+ ]
+}

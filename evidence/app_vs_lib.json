@@ -1,0 +1,70 @@
+{
+ "prediction_pairs": 500,
+ "max_abs_difference": 0,
+ "support_mismatches": 0,
+ "null_mismatches": 0,
+ "top5_list_mismatches": "0 of 20",
+ "impute_closed_form_max_difference": 6.983302824892235e-14,
+ "app_timings_node": [
+  {
+   "user": 1,
+   "ratings": 272,
+   "userBasedMs": 114,
+   "itemBasedMs": 5535
+  },
+  {
+   "user": 13,
+   "ratings": 636,
+   "userBasedMs": 79,
+   "itemBasedMs": 7542
+  },
+  {
+   "user": 50,
+   "ratings": 24,
+   "userBasedMs": 111,
+   "itemBasedMs": 703
+  },
+  {
+   "user": 100,
+   "ratings": 59,
+   "userBasedMs": 106,
+   "itemBasedMs": 1602
+  },
+  {
+   "user": 200,
+   "ratings": 216,
+   "userBasedMs": 95,
+   "itemBasedMs": 4681
+  },
+  {
+   "user": 300,
+   "ratings": 20,
+   "userBasedMs": 107,
+   "itemBasedMs": 574
+  },
+  {
+   "user": 405,
+   "ratings": 737,
+   "userBasedMs": 86,
+   "itemBasedMs": 10038
+  },
+  {
+   "user": 500,
+   "ratings": 225,
+   "userBasedMs": 105,
+   "itemBasedMs": 4905
+  },
+  {
+   "user": 700,
+   "ratings": 21,
+   "userBasedMs": 106,
+   "itemBasedMs": 647
+  },
+  {
+   "user": 943,
+   "ratings": 168,
+   "userBasedMs": 102,
+   "itemBasedMs": 3892
+  }
+ ]
+}

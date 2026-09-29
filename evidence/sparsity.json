@@ -1,0 +1,173 @@
+{
+ "shape": [
+  {
+   "scenario": "full: 943 users x 1682 items",
+   "users": 943,
+   "items": 1682,
+   "ratings": 100000,
+   "density": 0.063,
+   "userPairs": 444153,
+   "itemPairs": 1413721,
+   "userSimMs": 2045,
+   "itemSimMs": 2894,
+   "rmseUserBased": 1.0179,
+   "rmseItemBased": 1.0554,
+   "rmseItemMean": 1.0165
+  },
+  {
+   "scenario": "users > items: 943 users x 300 random items",
+   "users": 941,
+   "items": 300,
+   "ratings": 17365,
+   "density": 0.0615,
+   "userPairs": 442270,
+   "itemPairs": 44850,
+   "userSimMs": 283,
+   "itemSimMs": 75,
+   "rmseUserBased": 1.0106,
+   "rmseItemBased": 1.0538,
+   "rmseItemMean": 0.9991
+  },
+  {
+   "scenario": "items >> users: 300 random users x 1682 items",
+   "users": 300,
+   "items": 1573,
+   "ratings": 31976,
+   "density": 0.0678,
+   "userPairs": 44850,
+   "itemPairs": 1236378,
+   "userSimMs": 138,
+   "itemSimMs": 743,
+   "rmseUserBased": 1.0832,
+   "rmseItemBased": 1.1213,
+   "rmseItemMean": 1.089
+  }
+ ],
+ "coldStart": {
+  "users": 100,
+  "testRatings": 3395,
+  "rows": [
+   {
+    "ratingsKept": 0,
+    "rmseUserBased": 1.1131,
+    "rmseItemBased": 1.1131,
+    "rmseBiasBaseline": 1.0104,
+    "coverageUserBased": 0,
+    "coverageItemBased": 0
+   },
+   {
+    "ratingsKept": 1,
+    "rmseUserBased": 1.0675,
+    "rmseItemBased": 1.4117,
+    "rmseBiasBaseline": 0.985,
+    "coverageUserBased": 0.9596,
+    "coverageItemBased": 0.9596
+   },
+   {
+    "ratingsKept": 2,
+    "rmseUserBased": 1.0238,
+    "rmseItemBased": 1.2351,
+    "rmseBiasBaseline": 0.9699,
+    "coverageUserBased": 0.9873,
+    "coverageItemBased": 0.9873
+   },
+   {
+    "ratingsKept": 3,
+    "rmseUserBased": 1.0204,
+    "rmseItemBased": 1.1648,
+    "rmseBiasBaseline": 0.9621,
+    "coverageUserBased": 0.9903,
+    "coverageItemBased": 0.9903
+   },
+   {
+    "ratingsKept": 5,
+    "rmseUserBased": 1.0098,
+    "rmseItemBased": 1.0778,
+    "rmseBiasBaseline": 0.9418,
+    "coverageUserBased": 0.9918,
+    "coverageItemBased": 0.9918
+   },
+   {
+    "ratingsKept": 10,
+    "rmseUserBased": 1.0084,
+    "rmseItemBased": 1.0435,
+    "rmseBiasBaseline": 0.9311,
+    "coverageUserBased": 0.9938,
+    "coverageItemBased": 0.9938
+   },
+   {
+    "ratingsKept": 20,
+    "rmseUserBased": 1.0074,
+    "rmseItemBased": 1.0159,
+    "rmseBiasBaseline": 0.9073,
+    "coverageUserBased": 0.9944,
+    "coverageItemBased": 0.9944
+   }
+  ],
+  "newItems": {
+   "testRatingsOnItemsWithoutTrainRatings": 42,
+   "itemsWithoutTrainRatings": 37
+  }
+ },
+ "similarityByCoRated": [
+  {
+   "coRated": "1",
+   "userPairs": 38343,
+   "meanCosine": 1,
+   "shareExactlyOne": 1
+  },
+  {
+   "coRated": "2",
+   "userPairs": 39629,
+   "meanCosine": 0.9557,
+   "shareExactlyOne": 0.1505
+  },
+  {
+   "coRated": "3-5",
+   "userPairs": 98862,
+   "meanCosine": 0.9433,
+   "shareExactlyOne": 0.0176
+  },
+  {
+   "coRated": "6-10",
+   "userPairs": 93629,
+   "meanCosine": 0.9407,
+   "shareExactlyOne": 0.0006
+  },
+  {
+   "coRated": "11-20",
+   "userPairs": 71680,
+   "meanCosine": 0.9412,
+   "shareExactlyOne": 0
+  },
+  {
+   "coRated": "21-50",
+   "userPairs": 55391,
+   "meanCosine": 0.9435,
+   "shareExactlyOne": 0
+  },
+  {
+   "coRated": "51+",
+   "userPairs": 18384,
+   "meanCosine": 0.9437,
+   "shareExactlyOne": 0
+  }
+ ],
+ "neighbours": {
+  "shareOfNeighboursWith3OrFewerCoRated": 0.1455,
+  "rmseByMeanCoRatedOfNeighbours": {
+   "1-5": {
+    "predictions": 2519,
+    "rmse": 1.0644
+   },
+   "6-20": {
+    "predictions": 5269,
+    "rmse": 1.045
+   },
+   "21+": {
+    "predictions": 12170,
+    "rmse": 0.9962
+   }
+  }
+ }
+}

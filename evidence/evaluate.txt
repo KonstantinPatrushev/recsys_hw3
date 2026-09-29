@@ -1,0 +1,28 @@
+train=80000 test=20000 validation=8000 cold test items=42
+
+VALIDATION (used to choose the strategy)
+user-based  corated   RMSE 1.0313  MAE 0.8137  coverage 99.8%
+item-based  corated   RMSE 1.0744  MAE 0.8523  coverage 99.8%
+user-based, readme neighbourhood (global top-20) corated   RMSE 1.1242  MAE 0.8822  coverage 25.9%
+user-based, mean-centred corated   RMSE 0.9822  MAE 0.7761  coverage 99.8%
+item-based, mean-centred corated   RMSE 0.9765  MAE 0.7695  coverage 99.8%
+user-based  impute    RMSE 1.0584  MAE 0.8312  coverage 99.8%
+item-based  impute    RMSE 1.0841  MAE 0.8610  coverage 99.8%
+user-based  weighted  RMSE 1.0309  MAE 0.8175  coverage 99.8%
+item-based  weighted  RMSE 1.1028  MAE 0.8565  coverage 99.8%
+
+TEST
+user-based / corated                       RMSE 1.0180  MAE 0.8033  coverage 99.8%  sim 2101 ms  predict 962 ms
+item-based / corated                       RMSE 1.0557  MAE 0.8350  coverage 99.8%  sim 2967 ms  predict 1154 ms
+user-based, readme neighbourhood (global top-20) / corated RMSE 1.1183  MAE 0.8756  coverage 26.8%  sim 2101 ms  predict 598 ms
+user-based, mean-centred / corated         RMSE 0.9611  MAE 0.7604  coverage 99.8%  sim 2101 ms  predict 1052 ms
+item-based, mean-centred / corated         RMSE 0.9534  MAE 0.7481  coverage 99.8%  sim 2967 ms  predict 1271 ms
+user-based / impute                        RMSE 1.0440  MAE 0.8191  coverage 99.8%  sim 2140 ms  predict 961 ms
+item-based / impute                        RMSE 1.0728  MAE 0.8518  coverage 99.8%  sim 3173 ms  predict 1182 ms
+user-based / weighted                      RMSE 1.0169  MAE 0.8060  coverage 99.8%  sim 2233 ms  predict 999 ms
+item-based / weighted                      RMSE 1.0868  MAE 0.8434  coverage 99.8%  sim 3144 ms  predict 1106 ms
+global mean                                RMSE 1.1204  MAE 0.9409
+user mean                                  RMSE 1.0420  MAE 0.8360
+item mean                                  RMSE 1.0165  MAE 0.8115
+bias baseline (mu + b_u + b_i)             RMSE 0.9403  MAE 0.7466
+matrix factorization (SGD, 100 factors)    RMSE 0.9301  MAE 0.7340  train 2976 ms

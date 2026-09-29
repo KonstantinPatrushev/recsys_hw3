@@ -1,0 +1,202 @@
+{
+ "split": {
+  "train": 80000,
+  "test": 20000,
+  "validation": 8000,
+  "seed": 42
+ },
+ "k": 20,
+ "cold_test_items": 42,
+ "validation": [
+  {
+   "method": "user-based",
+   "strategy": "corated",
+   "simMs": 1097,
+   "rmse": 1.0313,
+   "mae": 0.8137,
+   "coverage": 0.9975,
+   "predictMs": 314
+  },
+  {
+   "method": "item-based",
+   "strategy": "corated",
+   "simMs": 1719,
+   "rmse": 1.0744,
+   "mae": 0.8523,
+   "coverage": 0.9975,
+   "predictMs": 354
+  },
+  {
+   "method": "user-based, readme neighbourhood (global top-20)",
+   "strategy": "corated",
+   "simMs": 1097,
+   "rmse": 1.1242,
+   "mae": 0.8822,
+   "coverage": 0.2592,
+   "predictMs": 359
+  },
+  {
+   "method": "user-based, mean-centred",
+   "strategy": "corated",
+   "simMs": 1097,
+   "rmse": 0.9822,
+   "mae": 0.7761,
+   "coverage": 0.9975,
+   "predictMs": 344
+  },
+  {
+   "method": "item-based, mean-centred",
+   "strategy": "corated",
+   "simMs": 1719,
+   "rmse": 0.9765,
+   "mae": 0.7695,
+   "coverage": 0.9975,
+   "predictMs": 411
+  },
+  {
+   "method": "user-based",
+   "strategy": "impute",
+   "simMs": 924,
+   "rmse": 1.0584,
+   "mae": 0.8312,
+   "coverage": 0.9975,
+   "predictMs": 304
+  },
+  {
+   "method": "item-based",
+   "strategy": "impute",
+   "simMs": 1408,
+   "rmse": 1.0841,
+   "mae": 0.861,
+   "coverage": 0.9975,
+   "predictMs": 362
+  },
+  {
+   "method": "user-based",
+   "strategy": "weighted",
+   "simMs": 875,
+   "rmse": 1.0309,
+   "mae": 0.8175,
+   "coverage": 0.9975,
+   "predictMs": 291
+  },
+  {
+   "method": "item-based",
+   "strategy": "weighted",
+   "simMs": 1487,
+   "rmse": 1.1028,
+   "mae": 0.8565,
+   "coverage": 0.9975,
+   "predictMs": 336
+  }
+ ],
+ "test": [
+  {
+   "method": "user-based",
+   "strategy": "corated",
+   "simMs": 2101,
+   "rmse": 1.018,
+   "mae": 0.8033,
+   "coverage": 0.9979,
+   "predictMs": 962
+  },
+  {
+   "method": "item-based",
+   "strategy": "corated",
+   "simMs": 2967,
+   "rmse": 1.0557,
+   "mae": 0.835,
+   "coverage": 0.9979,
+   "predictMs": 1154
+  },
+  {
+   "method": "user-based, readme neighbourhood (global top-20)",
+   "strategy": "corated",
+   "simMs": 2101,
+   "rmse": 1.1183,
+   "mae": 0.8756,
+   "coverage": 0.2676,
+   "predictMs": 598
+  },
+  {
+   "method": "user-based, mean-centred",
+   "strategy": "corated",
+   "simMs": 2101,
+   "rmse": 0.9611,
+   "mae": 0.7604,
+   "coverage": 0.9979,
+   "predictMs": 1052
+  },
+  {
+   "method": "item-based, mean-centred",
+   "strategy": "corated",
+   "simMs": 2967,
+   "rmse": 0.9534,
+   "mae": 0.7481,
+   "coverage": 0.9979,
+   "predictMs": 1271
+  },
+  {
+   "method": "user-based",
+   "strategy": "impute",
+   "simMs": 2140,
+   "rmse": 1.044,
+   "mae": 0.8191,
+   "coverage": 0.9979,
+   "predictMs": 961
+  },
+  {
+   "method": "item-based",
+   "strategy": "impute",
+   "simMs": 3173,
+   "rmse": 1.0728,
+   "mae": 0.8518,
+   "coverage": 0.9979,
+   "predictMs": 1182
+  },
+  {
+   "method": "user-based",
+   "strategy": "weighted",
+   "simMs": 2233,
+   "rmse": 1.0169,
+   "mae": 0.806,
+   "coverage": 0.9979,
+   "predictMs": 999
+  },
+  {
+   "method": "item-based",
+   "strategy": "weighted",
+   "simMs": 3144,
+   "rmse": 1.0868,
+   "mae": 0.8434,
+   "coverage": 0.9979,
+   "predictMs": 1106
+  },
+  {
+   "method": "global mean",
+   "rmse": 1.1204,
+   "mae": 0.9409
+  },
+  {
+   "method": "user mean",
+   "rmse": 1.042,
+   "mae": 0.836
+  },
+  {
+   "method": "item mean",
+   "rmse": 1.0165,
+   "mae": 0.8115
+  },
+  {
+   "method": "bias baseline (mu + b_u + b_i)",
+   "rmse": 0.9403,
+   "mae": 0.7466
+  },
+  {
+   "method": "matrix factorization (SGD, 100 factors)",
+   "trainMs": 2976,
+   "rmse": 0.9301,
+   "mae": 0.734
+  }
+ ]
+}
